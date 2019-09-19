@@ -1,0 +1,22 @@
+{
+    "name": "oleg-chulakov-studio/yii2-model",
+    "description": "Model component for yii2 templates",
+    "type": "yii-component",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=7.3",
+        "yiisoft/yii2": "~2.0.25",
+        "sem-soft/yii2-helpers": "~2.0.0"
+    },
+    "authors": [
+        {
+            "name": "Chulakov Studio",
+            "email": "hello@chulakov.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "chulakov\\model\\": "src/"
+        }
+    }
+}
