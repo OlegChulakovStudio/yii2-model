@@ -40,7 +40,7 @@ class Enum
             ? static::$labels[$type]
             : static::$defaultLabel;
         if (!empty(static::$translateCategory)) {
-            $label = \Yii::t(self::$translateCategory, $label);
+            $label = \Yii::t(static::$translateCategory, $label);
         }
         return $label;
     }
