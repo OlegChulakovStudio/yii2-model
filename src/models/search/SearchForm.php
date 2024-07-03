@@ -78,7 +78,7 @@ abstract class SearchForm extends Model
      */
     protected function buildPagination()
     {
-        return [];
+        return false;
     }
 
     /**
