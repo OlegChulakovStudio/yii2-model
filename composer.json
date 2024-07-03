@@ -6,7 +6,8 @@
     "require": {
         "php": ">=7.3",
         "yiisoft/yii2": "~2.0.25",
-        "sem-soft/yii2-helpers": "~2.0.0"
+        "sem-soft/yii2-helpers": "~2.0.0",
+        "voku/anti-xss": "^4.1"
     },
     "authors": [
         {
